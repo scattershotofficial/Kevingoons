@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KEVIN STEPHEN — KING OF GOON</title>
+<style>
+  :root { --red:#ff2638; --black:#080808; --white:#f5f5f5; --muted:#a5a5a5; }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; color:var(--white); background:
+      radial-gradient(circle at 80% 10%, #3a080e 0, transparent 30%),
+      linear-gradient(145deg,#050505,#171717 65%,#090909);
+    font-family:Arial,Helvetica,sans-serif; min-height:100vh;
+  }
+  .wrap { width:min(920px,92%); margin:auto; padding:42px 0 55px; }
+  .topline { color:var(--red); letter-spacing:5px; font-size:12px; font-weight:900; }
+  h1 { font-size:clamp(42px,10vw,88px); line-height:.88; margin:20px 0 12px; font-weight:1000; letter-spacing:-5px; }
+  h1 span { color:var(--red); display:block; }
+  .sub { color:var(--muted); letter-spacing:2px; font-size:12px; }
+  .stamp { display:inline-block; border:2px solid var(--red); color:var(--red); padding:8px 13px; transform:rotate(-3deg); font-weight:900; letter-spacing:2px; margin:25px 0; }
+  .hero { border:1px solid #454545; padding:25px; background:#101010dd; box-shadow:8px 8px 0 var(--red); }
+  .hero h2 { margin:0 0 10px; font-size:26px; }
+  .hero p { color:#d0d0d0; line-height:1.6; margin:0; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin:28px 0; }
+  .card { border:1px solid #3a3a3a; background:#111; padding:19px; min-height:145px; }
+  .num { color:var(--red); font-size:12px; font-weight:900; letter-spacing:2px; }
+  .card h3 { margin:10px 0 8px; font-size:19px; }
+  .card p { color:#bdbdbd; line-height:1.5; margin:0; font-size:14px; }
+  .exes { border-left:4px solid var(--red); padding:18px 20px; background:#151515; margin:25px 0; }
+  .exes h2 { margin:0 0 14px; font-size:20px; }
+  .names { display:flex; flex-wrap:wrap; gap:9px; }
+  .pill { border:1px solid #777; padding:8px 12px; font-size:13px; font-weight:700; }
+  .meter { margin:28px 0; }
+  .meter label { display:flex; justify-content:space-between; font-size:12px; letter-spacing:1px; margin-bottom:8px; }
+  .track { height:12px; background:#333; }
+  .fill { height:100%; width:99%; background:linear-gradient(90deg,#a90016,var(--red)); }
+  .quote { text-align:center; font-size:clamp(22px,5vw,38px); font-weight:900; line-height:1.15; margin:38px 0; }
+  .quote em { color:var(--red); font-style:normal; }
+  footer { border-top:1px solid #333; padding-top:18px; color:#777; font-size:11px; letter-spacing:2px; display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+  button { border:0; background:var(--red); color:white; padding:13px 18px; font-weight:900; letter-spacing:1px; cursor:pointer; margin:10px 0 25px; }
+  button:hover { background:white; color:black; }
+
+  .ship-section { margin:28px 0; padding:22px; border:1px solid #5a1a20; background:linear-gradient(135deg,#160709,#090909 70%); }
+  .ship-section h2 { color:var(--red); margin:0 0 8px; letter-spacing:1px; }
+  .ship-intro { color:#aaa; font-size:13px; line-height:1.5; }
+  .ship-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(145px,1fr)); gap:12px; margin-top:18px; }
+  .ship-name { position:relative; overflow:hidden; text-align:center; padding:18px 8px; border:1px solid #6d252b; background:#160d0e; }
+  .ship-name::before { content:"🔥"; display:block; font-size:21px; margin-bottom:7px; animation:flame 1s ease-in-out infinite alternate; }
+  .ship-name strong { display:block; color:#ff6a32; font-size:19px; text-shadow:0 0 8px #ff2638,0 0 18px #b30016; }
+  .ship-name small { color:#aaa; font-size:10px; letter-spacing:1px; }
+  @keyframes flame { from { transform:translateY(2px) scale(.95); filter:brightness(.85); } to { transform:translateY(-3px) scale(1.12); filter:brightness(1.35); } }
+
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="topline">CLASSIFIED DOCUMENT // FRIENDSHIP DIVISION</div>
+  <h1>KEVIN <span>STEPHEN.</span></h1>
+  <div class="sub">A COMPLETELY UNOFFICIAL PUBLIC SERVICE ANNOUNCEMENT</div>
+
+  <section class="hero">
+    <h2>⚠ SUBJECT DETECTED</h2>
+    <p>Meet Kevin Stephen: proof that confidence can run on 1% battery and still refuse to switch on power-saving mode. A walking plot twist with the decision-making skills of a loading screen.</p>
+  </section>
+
+  <div class="grid">
+    <article class="card">
+      <div class="num">01 / ROMANCE LORE</div>
+      <h3>Three-season saga</h3>
+      <p>Three exes, three chapters, and somehow the character development is still marked “coming soon.”</p>
+    </article>
+    <article class="card">
+      <div class="num">02 / ONLINE STATUS</div>
+      <h3>Chronically connected</h3>
+      <p>His screen-time report probably needs its own annual report. Even the Wi-Fi asks him to take a break.</p>
+    </article>
+    <article class="card">
+      <div class="num">03 / MAIN CHARACTER?</div>
+      <h3>Background NPC energy</h3>
+      <p>Walks into a room like the final boss. Forgets the mission before the intro finishes.</p>
+    </article>
+  </div>
+
+
+  <section class="ship-section">
+    <h2>🔥 THE NAME-MIXER INFERNO 🔥</h2>
+    <p class="ship-intro">The royal archives have entered the remix era. Three names went into the blender. The results are absolutely unofficial.</p>
+    <div class="ship-grid">
+      <div class="ship-name"><strong>Kevshika</strong><small>KEVIN × KOUSHIKA</small></div>
+      <div class="ship-name"><strong>Koushvin</strong><small>KOUSHIKA × KEVIN</small></div>
+      <div class="ship-name"><strong>Kevanvi</strong><small>KEVIN × SHANVI</small></div>
+      <div class="ship-name"><strong>Shanvin</strong><small>SHANVI × KEVIN</small></div>
+      <div class="ship-name"><strong>Kevya</strong><small>KEVIN × DIVYA</small></div>
+      <div class="ship-name"><strong>Divin</strong><small>DIVYA × KEVIN</small></div>
+      <div class="ship-name"><strong>Kevyashi</strong><small>KEVIN × KOUSHIKA</small></div>
+      <div class="ship-name"><strong>Kevshanya</strong><small>KEVIN × SHANVI</small></div>
+      <div class="ship-name"><strong>Kevlosh</strong><small>KEVIN × DIVYA LOSHINI</small></div>
+    </div>
+    <p class="ship-intro" style="margin-bottom:0;margin-top:16px;">WARNING: These combinations are for the group-chat jokes only. No relationship announcements have been made by this website.</p>
+  </section>
+
+  <section class="exes">
+    <h2>THE THREE-CHAPTER RELATIONSHIP ARCHIVE</h2>
+    <div class="names">
+      <span class="pill">KOUSHIKA — CHAPTER 01</span>
+      <span class="pill">SHANVI — CHAPTER 03</span>
+      <span class="pill">DIVYA LOSHINI — CHAPTER 02</span>
+    </div>
+    <p style="color:#aaa;font-size:13px;margin:14px 0 0;">The names are part of the lore. The roast is aimed at Kevin's dramatic storyline — not the people in it.</p>
+  </section>
+
+
+  <section class="hero" style="margin-top:28px;border:2px solid var(--red);box-shadow:8px 8px 0 #65000b;">
+    <div class="topline">👑 THE ROYAL GOON ARCHIVES 👑</div>
+    <h2 style="font-size:clamp(30px,7vw,58px);color:var(--red);margin:12px 0 8px;">KING OF GOON</h2>
+    <p style="font-size:16px;font-weight:800;color:white;">ALL HAIL KEVIN I, RULER OF THE ENDLESS SCROLL.</p>
+    <p style="margin-top:12px;">A crown forged from screen time. A kingdom powered by Wi-Fi. A legacy measured in tabs left open and absolutely zero productive outcomes.</p>
+  </section>
+
+  <div class="grid">
+    <article class="card">
+      <div class="num">GOON KINGDOM / 001</div>
+      <h3>The Royal Scroll</h3>
+      <p>Kevin doesn't scroll to find something. He scrolls until the algorithm starts asking if he's okay.</p>
+    </article>
+    <article class="card">
+      <div class="num">GOON KINGDOM / 002</div>
+      <h3>Screen-Time Sultan</h3>
+      <p>His phone battery has seen more action than his homework. The charger deserves employee-of-the-month.</p>
+    </article>
+    <article class="card">
+      <div class="num">GOON KINGDOM / 003</div>
+      <h3>Brainrot Royalty</h3>
+      <p>One more scroll, he says. Three hours later, the sun has changed shifts.</p>
+    </article>
+    <article class="card">
+      <div class="num">GOON KINGDOM / 004</div>
+      <h3>Wi-Fi's Favourite Customer</h3>
+      <p>The router knows Kevin's footsteps. Even the Wi-Fi signal is considering a restraining order.</p>
+    </article>
+    <article class="card">
+      <div class="num">GOON KINGDOM / 005</div>
+      <h3>Professional Procrastinator</h3>
+      <p>Tasks: pending. Responsibilities: pending. Kevin's scrolling session: somehow still running.</p>
+    </article>
+    <article class="card">
+      <div class="num">GOON KINGDOM / 006</div>
+      <h3>Legendary Streak</h3>
+      <p>Not a gym streak. Not a study streak. Just an undefeated run of saying “last five minutes.”</p>
+    </article>
+  </div>
+
+  <section class="exes">
+    <h2>OFFICIAL ROYAL STATISTICS</h2>
+    <div class="meter">
+      <label><span>GOON KING ENERGY</span><span>OVER 9000</span></label>
+      <div class="track"><div class="fill" style="width:100%"></div></div>
+    </div>
+    <div class="meter">
+      <label><span>PRODUCTIVITY</span><span>404 NOT FOUND</span></label>
+      <div class="track"><div class="fill" style="width:2%"></div></div>
+    </div>
+    <div class="meter">
+      <label><span>“JUST ONE MORE SCROLL” ACCURACY</span><span>0%</span></label>
+      <div class="track"><div class="fill" style="width:1%"></div></div>
+    </div>
+    <p style="color:#aaa;font-size:12px;margin-bottom:0;">These statistics are completely fake, scientifically unverified, and approved by absolutely nobody.</p>
+  </section>
+
+  <div class="quote">“HE DIDN'T CHOOSE THE GOON LIFE.<br>THE <em>ALGORITHM</em> CHOSE HIM.”</div>
+
+  <div class="meter">
+    <label><span>SELF-CONFIDENCE</span><span>99%</span></label>
+    <div class="track"><div class="fill"></div></div>
+  </div>
+  <div class="meter">
+    <label><span>COMMON SENSE DETECTED</span><span>BUFFERING…</span></label>
+    <div class="track"><div class="fill" style="width:3%"></div></div>
+  </div>
+
+  <div class="quote">“NOT THE VILLAIN.<br>NOT THE HERO.<br><em>JUST THE REASON THE GROUP CHAT IS ACTIVE.</em>”</div>
+
+  <button onclick="document.getElementById('verdict').hidden=false">REVEAL FINAL VERDICT</button>
+  <section id="verdict" class="hero" hidden>
+    <h2>FINAL VERDICT: KEVIN.EXE</h2>
+    <p>Too many side quests. Not enough updates. Please restart the personality and install the common-sense patch.</p>
+  </section>
+
+  <footer><span>KEVIN STEPHEN · KING OF GOON ARCHIVE</span><span>100% FRIENDLY SLANDER · 0% OFFICIAL</span></footer>
+</main>
+</body>
+</html>
